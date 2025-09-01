@@ -1,0 +1,70 @@
+/* Importa una fuente de Google Fonts para un diseño más moderno */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+/* Estilos para la sección principal de contenido */
+section {
+    width: 90%;
+    max-width: 800px; /* Limita el ancho del contenido para mejor lectura */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Estilos para el iframe de Prezi */
+#iframe_container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9; /* Mantiene la relación de aspecto de video */
+}
+
+/* Estilos para el pie de página */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+}
